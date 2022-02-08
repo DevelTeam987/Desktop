@@ -40,9 +40,7 @@ foreach ($json["data"] as $resultado) {
 	$sql = "INSERT INTO sorteio(Resultado, DataHora, TipoResultado, IdConcurso, NoLoteria, NoApelido, IdLoteria)
 	VALUES ('$result', '$datahora', '$tiporesultado', '$idconcurso', '$noloteria','$noapelido', '$idloteria');";
 
-	//tá faltando executar a string sql declarada acima....
 
-	// consegue verificar e corrigir o problema? sim mas vc apagou a primeira variavel a do resultado 
 
 	#$row = mysqli_fetch_array($conn, $sql);
 
